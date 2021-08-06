@@ -76,7 +76,6 @@ class MessageController extends Controller
 
         $config = [
             'corp_id' => $enterprise->corp_id,
-
             'agent_id' => $enterprise->agent_id,
             'secret' => $enterprise->secret,
         ];

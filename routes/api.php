@@ -20,5 +20,6 @@ Route::namespace ('App\Http\Controllers\Api')->middleware(['check.api.auth'])->g
 
 Route::namespace ('App\Http\Controllers\Api')->group(function () {
     //数据字典
-    Route::any('dd1', 'DdController@getDd');
+    Route::any('sendmsg', 'MessageController@sendMsg');
+    Route::any('sendcard', 'MessageController@sendCard');
 });

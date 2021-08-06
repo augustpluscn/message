@@ -123,7 +123,34 @@ class AdminMenuTableSeeder extends Seeder
                 'created_at' => '2021-06-02 13:35:55',
                 'updated_at' => NULL,
             ),
+            8 => 
+            array (
+                'id' => 9,
+                'parent_id' => 0,
+                'order' => 9,
+                'title' => '企业微信',
+                'icon' => 'fa-commenting-o',
+                'uri' => NULL,
+                'extension' => '',
+                'show' => 1,
+                'created_at' => '2021-08-06 03:08:53',
+                'updated_at' => '2021-08-06 03:08:53',
+            ),
+            9 => 
+            array (
+                'id' => 10,
+                'parent_id' => 9,
+                'order' => 10,
+                'title' => '通道设置',
+                'icon' => NULL,
+                'uri' => 'ents',
+                'extension' => '',
+                'show' => 1,
+                'created_at' => '2021-08-06 03:09:30',
+                'updated_at' => '2021-08-06 03:09:30',
+            ),
         ));
+        
         
     }
 }

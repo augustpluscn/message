@@ -14,6 +14,8 @@ Route::group([
 
     $router->get('/', 'HomeController@index');
 
+    $router->resource('ents', 'EnterpriseController');
+
     //网站配置
     Route::get('/settings/{classinfo}', 'SettingsController@index')->name('settings.index');
 
